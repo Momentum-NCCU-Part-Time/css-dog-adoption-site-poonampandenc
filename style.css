@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+
+}
+
+.container
+{
+    /* display:flex; */
+    height: 100vh;
+    width: 100vw; 
+}
+.header 
+{
+    background-color: #004175;
+    padding: 5rem;
+    border-bottom: #89DEEF;
+    font-family: "Oswald";
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    /* need to set the size of header properly */
+    
+}
+#home-img
+{
+    width: 108rem;;
+}
+.nav,.list,.pagelink
+{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 20px;
+    padding: 5;
+}
+
+.paragraph
+{
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center; 
+   margin-left: 280;
+   margin-right: 280;
+   font-family: "Open Sans";
+   font-size: 25px;
+   }
+
+   .homepara
+   {
+    margin-top: 36px;
+   }
+   .footer
+   {
+    display: flexbox;
+    display: inline;
+    background-color: #A6A9F0;
+    }
+
+    .donate
+    {
+        flex: 1 1 auto;
+        background-color: #A6A9F0;
+    }
+    
+    .volunteer
+    {
+        flex: 1 1 auto;
+        background-color: #A6A9F0;
+    }
+
+    .location
+    {
+        flex: 1 1 auto;
+        background-color: #A6A9F0;
+    }
+
+.section
+{
+padding: 60;
+font-family: "Open Sans";
+font-size: 2rem;
+/* margin-left: 80; */
+margin-top: 20;
+flex-wrap: wrap;
+align-items: left; 
+}
+
+.contact
+{
+    margin-left: 60;
+    /* margin-top: 40; */
+    font-family: "Open Sans";
+    font-style: italic;
+    flex-wrap: wrap;
+}
+
+ul
+{
+padding: 40;
+}
+
+.hours
+{
+    color: black;
+    font-family: "Open Sans";
+    font-size: 20px;
+    margin-left:75;
+}

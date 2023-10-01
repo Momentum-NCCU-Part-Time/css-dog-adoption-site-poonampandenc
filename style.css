@@ -30,10 +30,14 @@ html
     /* need to set the size of header properly */
     
 }
-#home-img
+
+#page-img
 {
-    width: 108rem;;
+    display:flex;
+    width: 100%;
+    height:auto;
 }
+
 .nav,.list,.pagelink
 {
     display: inline;
@@ -56,7 +60,7 @@ html
    font-size: 25px;
    }
 
-   .homepara
+.homepara
    {
     margin-top: 36px;
    }
@@ -67,19 +71,19 @@ html
     background-color: #A6A9F0;
     }
 
-    .donate
+.donate
     {
         flex: 1 1 auto;
         background-color: #A6A9F0;
     }
     
-    .volunteer
+.volunteer
     {
         flex: 1 1 auto;
         background-color: #A6A9F0;
     }
 
-    .location
+.location
     {
         flex: 1 1 auto;
         background-color: #A6A9F0;

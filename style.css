@@ -64,40 +64,66 @@ html
    {
     margin-top: 36px;
    }
-   .footer
-   {
-    display: flexbox;
-    display: inline;
-    background-color: #A6A9F0;
-    }
 
-.donate
+footer
+   {
+       display: flex;
+       padding-top: 5rem;
+       /* display: inline-block; */
+       flex-wrap: nowrap;
+       /* background-color: #A6A9F0; */
+       height: 10rem;
+       /* justify-content: center; */
+       /* text-align: center; */
+       font-family: "Oswald";
+       /* font-weight: bold; */
+       font-size: 2rem;
+    }
+    
+.donate, .footerlink
     {
+        /* margin: auto; */
+        width: 30vw;
+        Height: 30vh;
+        text-decoration: none;
+        list-style-type: none;
+        display: inline-block;
         flex: 1 1 auto;
         background-color: #A6A9F0;
     }
     
-.volunteer
+.volunteer, .footerlink
     {
+        width: 30vw;
+        Height: 30vh;
+        text-decoration: none;
+        list-style-type: none;
+        display: inline-block;
         flex: 1 1 auto;
         background-color: #A6A9F0;
+        text-align: center;
+        /* vertical-align: middle; */
     }
 
-.location
+.location, .footerlink
     {
+        width: 30vw;
+        Height: 30vh;
+        text-decoration: none;
+        list-style-type: none;
+        display: inline-block;
         flex: 1 1 auto;
         background-color: #A6A9F0;
     }
 
 .section
 {
-padding: 60;
-font-family: "Open Sans";
-font-size: 2rem;
-/* margin-left: 80; */
-margin-top: 20;
-flex-wrap: wrap;
-align-items: left; 
+        padding: 60;
+        font-family: "Open Sans";
+        font-size: 2rem;
+        margin-top: 20;
+        flex-wrap: wrap;
+        align-items: left; 
 }
 
 .contact

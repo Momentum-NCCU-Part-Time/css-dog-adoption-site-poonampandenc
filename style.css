@@ -65,6 +65,16 @@ html
     margin-top: 36px;
    }
 
+.adoptpara
+{
+    flex-wrap: wrap;
+    padding-left: 60;
+    padding-bottom: 40;
+    justify-content: left;
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+
 footer
    {
        display: flex;
@@ -165,4 +175,49 @@ padding: 40;
     font-family: "Open Sans";
     font-size: 20px;
     margin-left:75;
+}
+
+.dogs
+{
+    /* display: flex;
+    flex-flow: row wrap; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    margin-left: 70;
+    margin-right: 70;
+    grid-gap: 10px;
+    /* height: calc(100vh-20px); */
+    /* align-items: stretch; */
+}
+
+.dogimg
+{
+    /* display: flex;
+    flex-flow: row wrap; */
+    flex: auto;
+    /* margin:5px; */
+    /* box-sizing: border-box; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgray;
+    min-height: 33vh;
+    padding: 10px;
+    /* object-fit: fill; */
+    /* align-items: stretch; */
+}
+
+.dogname
+{
+    font-family: "Oswald";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dogpic
+{
+    /* max-width: 100%; */
+    /* object-fit: fill; */
+    width: 100%;
+    height: auto;
 }

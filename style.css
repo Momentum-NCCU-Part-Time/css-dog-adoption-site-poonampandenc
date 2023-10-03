@@ -191,7 +191,7 @@ padding: 40;
     /* align-items: stretch; */
 }
 
-.dogimg
+.dog
 {
     /* display: flex;
     flex-flow: row wrap; */
@@ -209,15 +209,35 @@ padding: 40;
 
 .dogname
 {
+    padding: 10px;
     font-family: "Oswald";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
-.dogpic
+.dogimg
 {
     /* max-width: 100%; */
     /* object-fit: fill; */
     width: 100%;
     height: auto;
+}
+
+.traits
+{
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+.trait
+{
+    padding: 5px;
+    margin: 8px;
+    border: none;
+    border-radius:25px;
+    background: #89deef;
+
 }

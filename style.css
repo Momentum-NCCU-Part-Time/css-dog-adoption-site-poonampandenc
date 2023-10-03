@@ -70,6 +70,7 @@ footer
        display: flex;
        flex-flow: row wrap;
        justify-content: center;
+       text-align: center;
        padding-top: 5rem;
        /* display: inline-block; */
        /* flex-wrap: nowrap; */
@@ -79,44 +80,55 @@ footer
        /* text-align: center; */
        font-family: "Oswald";
        /* font-weight: bold; */
-       font-size: 2rem;
+       font-size: 4.2rem;
+       /* width: 33vw;
+        height: 33vh; */
     }
     
 .donate
     {
         /* width: 33vw;
         Height: 33vh; */
-        line-height: 240px;
+        /* line-height: 250px; */
         display: flex;
-        flex: 1 1 auto;
+        flex: auto;
         background-image: linear-gradient(rgba(85, 85, 240, 0.5),rgba(85, 85, 240, 0.5)), url(/images/donate.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     
 .volunteer
     {
         /* width: 33vw;
         Height: 33vh; */
-        line-height: 240px;
+        /* line-height: 250px; */
         display: flex;
-        flex: 1 1 auto;
+        flex: auto;
         background-image: linear-gradient(rgba(85, 85, 240, 0.5),rgba(85, 85, 240, 0.5)), url(/images/volunteer.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
 .location
     {
         /* width: 33vw;
         Height: 33vh; */
-        line-height: 240px;
+        /* line-height: 250px; */
         display: flex;
-        flex: 1 1 auto;
+        flex: auto;
         background-image: linear-gradient(rgba(85, 85, 240, 0.5),rgba(85, 85, 240, 0.5)), url(/images/location.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
 .footerlink
     {
         width: 33vw;
-        Height: 33vh;
-        line-height: 240px;
+        Height: 50vh;
+        line-height: 400px;
         text-decoration: none;
         list-style-type: none;
         text-align: center;
